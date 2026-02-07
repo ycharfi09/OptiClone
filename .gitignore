@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+.opticlone.log
+
+# Generated/Temp files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Model/Weight cache (optional — uncomment to store locally)
+# models/
+
+# Output recordings/exports (user data)
+# outputs/
+# recordings/
+
+# Distribution / Build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.pyc
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.Spotlight-V100
+.Trashes
