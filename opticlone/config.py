@@ -19,10 +19,20 @@ GUIDANCE_MIN, GUIDANCE_MAX = 0.1, 1.5   # maps to t_shift
 
 # ── UI ───────────────────────────────────────────────────────────
 APP_TITLE = "OptiClone — Voice Cloner"
-WINDOW_SIZE = "960x720"
-DARK_BG = "#1a1a2e"
-ACCENT = "#0f3460"
-HIGHLIGHT = "#e94560"
+WINDOW_SIZE = "1000x780"
+# Modern gradient-inspired color palette
+DARK_BG = "#0f0f23"          # Deep dark blue-black
+CARD_BG = "#1a1d3a"          # Card background
+ACCENT = "#2d3561"           # Accent frame color
+ACCENT_LIGHT = "#3d4575"     # Lighter accent
+HIGHLIGHT = "#6366f1"        # Indigo primary
+HIGHLIGHT_HOVER = "#818cf8"  # Lighter indigo for hover
+SUCCESS = "#10b981"          # Green for success
+WARNING = "#f59e0b"          # Amber for warnings
+ERROR = "#ef4444"            # Red for errors
+TEXT_PRIMARY = "#f8fafc"     # Near white
+TEXT_SECONDARY = "#94a3b8"   # Muted gray
+BORDER_COLOR = "#374151"     # Subtle border
 
 # ── Recording ────────────────────────────────────────────────────
 REC_CHANNELS = 1
